@@ -1,1 +1,29 @@
-<h1>heading<h1>
+<html>
+
+<div id="my">
+
+</div>
+
+<button onclick="myfunc()"> Add new </button>
+
+
+
+</html>
+
+<script>
+
+function myfunc()
+{
+    n = 1;
+    b = document.createElement("label");
+    b.innerHTML="new"
+
+    n = document.createElement("br");
+    b.appendChild(n);
+    document.getElementById("my").appendChild(b);
+
+
+}
+
+
+</script>
